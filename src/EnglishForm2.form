@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="EnglishForm2">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="35658" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="78efc" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Q2. &#9;Jun-Sik ..... his teeth before breakfast every morning."/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="59dce" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d805f" class="javax.swing.JRadioButton" binding="ARadioButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="A. will cleaned"/>
+            </properties>
+          </component>
+          <component id="18000" class="javax.swing.JRadioButton" binding="BRadioButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="B. is cleaning"/>
+            </properties>
+          </component>
+          <component id="b1a1c" class="javax.swing.JRadioButton" binding="CRadioButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="C. cleans"/>
+            </properties>
+          </component>
+          <component id="48503" class="javax.swing.JRadioButton" binding="DRadioButton">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="D. clean"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5b13e" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4d9fe" class="javax.swing.JButton" binding="nextButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Next"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="48503"/>
+      <member id="b1a1c"/>
+      <member id="18000"/>
+      <member id="d805f"/>
+    </group>
+  </buttonGroups>
+</form>
